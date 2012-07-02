@@ -31,3 +31,6 @@
 [submodule "csdb-container"]
 	path = csdb-container
 	url = git@github.com:bankbazaar/csdb.git
+[submodule "services/aps-service"]
+	path = services/aps-service
+	url = git@github.com:bankbazaar/aps-service.git

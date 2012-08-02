@@ -22,5 +22,6 @@
         <module>exportservice</module>
         <module>dataservice</module>
         <module>gratter-container</module>
+        <module>aps-service</module>
     </modules>
 </project>

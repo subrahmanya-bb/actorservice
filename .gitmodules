@@ -34,3 +34,6 @@
 [submodule "services/aps-service"]
 	path = services/aps-service
 	url = git@github.com:bankbazaar/aps-service.git
+[submodule "warehouse"]
+	path = warehouse
+	url = git@github.com:bankbazaar/warehouse.git

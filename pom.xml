@@ -300,6 +300,7 @@
         <module>cp-container</module>
         <module>websites</module>
         <module>md</module>
+        <module>warehouse</module>
     </modules>
 
 </project>

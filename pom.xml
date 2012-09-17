@@ -33,23 +33,9 @@
                         <version>${jdbc.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>commons-dbcp</groupId>
-                        <artifactId>commons-dbcp</artifactId>
-                        <version>${commons.dbcp.version}</version>
-                        <exclusions>
-                            <exclusion>
-                                <artifactId>xercesImpl</artifactId>
-                                <groupId>xerces</groupId>
-                            </exclusion>
-                            <exclusion>
-                                <artifactId>xml-apis</artifactId>
-                                <groupId>xml-apis</groupId>
-                            </exclusion>
-                            <exclusion>
-                                <artifactId>commons-collections</artifactId>
-                                <groupId>commons-collections</groupId>
-                            </exclusion>
-                        </exclusions>
+                        <groupId>com.jolbox</groupId>
+                        <artifactId>bonecp</artifactId>
+                        <version>0.7.1.RELEASE</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -145,23 +131,9 @@
             <version>${jdbc.version}</version>
         </dependency>
         <dependency>
-            <groupId>commons-dbcp</groupId>
-            <artifactId>commons-dbcp</artifactId>
-            <version>${commons.dbcp.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>xercesImpl</artifactId>
-                    <groupId>xerces</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>xml-apis</artifactId>
-                    <groupId>xml-apis</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>commons-collections</artifactId>
-                    <groupId>commons-collections</groupId>
-                </exclusion>
-            </exclusions>
+            <groupId>com.jolbox</groupId>
+            <artifactId>bonecp</artifactId>
+            <version>0.7.1.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>commons-lang</groupId>
@@ -299,7 +271,6 @@
         <!-- Properties calculated by AppFuse when running full-source plugin -->
         <commons.beanutils.version>1.8.1</commons.beanutils.version>
         <commons.collections.version>3.2</commons.collections.version>
-        <commons.dbcp.version>1.4</commons.dbcp.version>
         <commons.lang.version>2.4</commons.lang.version>
         <commons.codec.version>1.4</commons.codec.version>
         <compass.version>2.2.0</compass.version>

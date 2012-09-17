@@ -1,0 +1,38 @@
+* core-container 44342c4...9257c8c (3):
+  > [xp:43880] Adding another banker assignable role
+  > [xp:44445] datamodel changes for customer email escalation
+  > Revert "Website Testing Tool"
+
+* cp-container 8655d46...46c1b7b (1):
+  > [build] Fixing two wheeler product type change
+
+* csdb-container 93cd6f5...a1c5e33 (3):
+  > [xp:44445] customer escalation uat fixes
+  > [bz:8082]
+  > [xp:44445] jobs and services for customer escalation
+
+* md 03f470d...4f5c3ab (3):
+  > [xp:42552] service req type changes + notif unit changes
+  > [xp:39823] Bug 8166 fixed- export to excel and other formats
+  > Registration Cost Slab
+
+* services/exportservice 0157d54...47a21bd (7):
+  > [bz:8226] changes in helper function get-lowest-ranked-banker'
+  > [xp:44448] Adding banker with team lead in pdf
+  > [xp:44445] Export changes for customer escalation
+  >  [bz:8082] HDFC PL normal pdf
+  > nacs default value
+  > [bz:8086] [ICICI WL PDF]
+  > [xp:44449] Axis HL pdf
+
+* services/notificationservice df744c4...0117c8b (2):
+  > [xp:44445] NotificationChanges for customer email escalation
+  > [TT:]Notified Contact disabling for emails
+
+* websites cf01c74...4dfece4 (5):
+  > [xp:44445] my account action changes for customer email escalation
+  > Revert "Website Testing Tool"
+  > [bz:7720] clicktale for staggeredFlow
+  > [bz:8071] feedback tab and search id in offers page issue fixed
+  >  [xp:44246] Slider improvements
+

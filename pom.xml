@@ -295,12 +295,12 @@
 
     <modules>
         <module>core-container</module>
+        <module>warehouse</module>
         <module>csdb-container</module>
         <module>services</module>
         <module>cp-container</module>
         <module>websites</module>
         <module>md</module>
-        <module>warehouse</module>
     </modules>
 
 </project>

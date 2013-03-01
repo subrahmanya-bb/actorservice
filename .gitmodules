@@ -1,39 +1,39 @@
 [submodule "core-container"]
 	path = core-container
-	url = git@github.com:keshav-modi/core.git
+	url = git@github.com:bankbazaar/core.git
 [submodule "websites"]
 	path = websites
-	url = git@github.com:keshav-modi/websites.git
+	url = git@github.com:bankbazaar/websites.git
 [submodule "warehouse"]
 	path = warehouse
-	url = git@github.com:keshav-modi/warehouse
+	url = git@github.com:bankbazaar/warehouse
 [submodule "services/cibil"]
 	path = services/cibil
-	url = git@github.com:keshav-modi/cibilservice.git
+	url = git@github.com:bankbazaar/cibilservice.git
 [submodule "services/notificationservice"]
 	path = services/notificationservice
-	url = git@github.com:keshav-modi/notificationservice.git
+	url = git@github.com:bankbazaar/notificationservice.git
 [submodule "services/exportservice"]
 	path = services/exportservice
-	url = git@github.com:keshav-modi/exportservice.git
+	url = git@github.com:bankbazaar/exportservice.git
 [submodule "services/dataservice"]
 	path = services/dataservice
-	url = git@github.com:keshav-modi/dataservice.git
+	url = git@github.com:bankbazaar/dataservice.git
 [submodule "services/gratter-container"]
 	path = services/gratter-container
-	url = git@github.com:keshav-modi/gratter.git
+	url = git@github.com:bankbazaar/gratter.git
 [submodule "cp-container"]
 	path = cp-container
-	url = git@github.com:keshav-modi/cp.git
+	url = git@github.com:bankbazaar/cp.git
 [submodule "md"]
 	path = md
-	url = git@github.com:keshav-modi/md.git
+	url = git@github.com:bankbazaar/md.git
 [submodule "denormer"]
 	path = denormer
-	url = git@github.com:keshav-modi/denormer.git
+	url = git@github.com:bankbazaar/denormer.git
 [submodule "csdb-container"]
 	path = csdb-container
-	url = git@github.com:keshav-modi/csdb.git
+	url = git@github.com:bankbazaar/csdb.git
 [submodule "services/aps-service"]
 	path = services/aps-service
-	url = git@github.com:keshav-modi/aps-service.git
+	url = git@github.com:bankbazaar/aps-service.git

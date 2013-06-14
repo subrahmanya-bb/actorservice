@@ -237,6 +237,7 @@
         <urlrewrite.version>3.1.0</urlrewrite.version>
         <velocity.version>1.4</velocity.version>
         <grails.version>2.1.1</grails.version>
+        <grails-test-plugin.version>2.1.0</grails-test-plugin.version><!--using a separate version for test plugins as these plugins are not available for version 2.1.1. Refer: http://jira.grails.org/browse/MAVEN-188-->
         <groovy.version>1.8.8</groovy.version>
         <cglib.version>2.2</cglib.version>
     </properties>

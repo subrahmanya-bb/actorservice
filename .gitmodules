@@ -28,9 +28,6 @@
 [submodule "md"]
 	path = md
 	url = git@github.com:bankbazaar/md.git
-[submodule "denormer"]
-	path = denormer
-	url = git@github.com:bankbazaar/denormer.git
 [submodule "csdb-container"]
 	path = csdb-container
 	url = git@github.com:bankbazaar/csdb.git

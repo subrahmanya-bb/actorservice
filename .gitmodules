@@ -34,3 +34,6 @@
 [submodule "services/aps-service"]
 	path = services/aps-service
 	url = git@github.com:bankbazaar/aps-service.git
+[submodule "services/icici-bb-doc-flow-service"]
+	path = services/icici-bb-doc-flow-service
+	url = git@github.com:bankbazaar/icici-bb-doc-flow-service.git

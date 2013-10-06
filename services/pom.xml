@@ -23,5 +23,6 @@
         <module>dataservice</module>
         <module>gratter-container</module>
         <module>aps-service</module>
+        <module>icici-bb-doc-flow-service</module>
     </modules>
 </project>

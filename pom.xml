@@ -235,7 +235,7 @@
         <slf4j.version>1.6.2</slf4j.version>
         <spring.security.version>3.1.2.RELEASE</spring.security.version>
         <struts.menu.version>2.4.3</struts.menu.version>
-        <urlrewrite.version>3.1.0</urlrewrite.version>
+        <urlrewrite.version>3.2.0</urlrewrite.version>
         <velocity.version>1.4</velocity.version>
         <grails.version>2.1.1</grails.version>
         <grails-test-plugin.version>2.1.0</grails-test-plugin.version><!--using a separate version for test plugins as these plugins are not available for version 2.1.1. Refer: http://jira.grails.org/browse/MAVEN-188-->

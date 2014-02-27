@@ -6,7 +6,7 @@
 	url = git@github.com:bankbazaar/websites.git
 [submodule "warehouse"]
 	path = warehouse
-	url = git@github.com:bankbazaar/warehouse
+	url = git@github.com:bankbazaar/warehouse.git
 [submodule "services/cibil"]
 	path = services/cibil
 	url = git@github.com:bankbazaar/cibilservice.git

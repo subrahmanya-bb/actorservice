@@ -79,7 +79,7 @@
             <url>http://build.bankbazaar.com/archiva/repository/snapshots/</url>
         </repository>
         <repository>
-            <id>snapshots</id>
+            <id>theta-snapshots</id>
             <name>Snapshots Repository</name>
             <url>http://theta-build.bankbazaar.com/archiva/repository/snapshots/</url>
         </repository>
@@ -89,7 +89,7 @@
             <url>http://build.bankbazaar.com/archiva/repository/internal/</url>
         </repository>
         <repository>
-            <id>internal</id>
+            <id>theta-internal</id>
             <name>Internal Repository</name>
             <url>http://theta-build.bankbazaar.com/archiva/repository/internal/</url>
         </repository>

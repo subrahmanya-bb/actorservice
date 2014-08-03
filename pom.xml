@@ -293,6 +293,7 @@
     </dependencies>
 
     <modules>
+        <module>domain-container</module>
         <module>core-container</module>
         <module>warehouse</module>
         <module>csdb-container</module>

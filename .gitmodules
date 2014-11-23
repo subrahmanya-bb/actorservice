@@ -40,3 +40,7 @@
 [submodule "domain-container"]
 	path = domain-container
 	url = git@github.bankbazaar.com:bankbazaar/domain.git
+[submodule "services/bb-api"]
+	path = services/bb-api
+	url = git@github.bankbazaar.com:bankbazaar/bb-api.git
+

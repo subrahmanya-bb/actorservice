@@ -17,6 +17,7 @@
     <name>Service Container (Container for all services)</name>
 
     <modules>
+	<module>bb-api</module>
         <module>cibil</module>
         <module>notificationservice</module>
         <module>exportservice</module>

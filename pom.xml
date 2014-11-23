@@ -206,6 +206,8 @@
         <jmock.version>2.5.1</jmock.version>
         <jsp.version>2.0</jsp.version>
         <junit.version>4.10</junit.version>
+        <mockito.version>1.9.5</mockito.version>
+        <spring-test-mvc.version>1.0.0.M2</spring-test-mvc.version>
         <servlet.version>2.5</servlet.version>
         <cobertura.version>1.9.2</cobertura.version>
 

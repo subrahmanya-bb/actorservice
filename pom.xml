@@ -200,7 +200,7 @@
         <aws.version>1.4.5</aws.version>
         <struts.version>2.3.16.3</struts.version>
         <bonecp.version>0.7.1.RELEASE</bonecp.version>
-        <eclipse.jgit.version>0.12.1</eclipse.jgit.version>
+        <eclipse.jgit.version>3.7.0.201502260915-r</eclipse.jgit.version>
 
         <!-- Testing dependency versions -->
         <jmock.version>2.5.1</jmock.version>

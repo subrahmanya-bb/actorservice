@@ -44,3 +44,6 @@
 	path = services/bb-api
 	url = git@github.bankbazaar.com:bankbazaar/bb-api.git
 
+[submodule "services/digitalsignatureservice"]
+	path = services/digitalsignatureservice
+	url = git@github.bankbazaar.com:bankbazaar/digitalsignatureservice.git

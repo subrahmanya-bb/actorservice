@@ -6,7 +6,7 @@
     <groupId>com.bankbazaar</groupId>
     <artifactId>brint</artifactId>
     <packaging>pom</packaging>
-    <version>thangavel-feature</version>
+    <version>1.0-SNAPSHOT</version>
     <name>Bankbazaar</name>
     <url>http://www.bankbazaar.com</url>
 

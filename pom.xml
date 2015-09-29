@@ -269,6 +269,7 @@
         <sonar.jdbc.username>cloud</sonar.jdbc.username>
         <sonar.jdbc.password>scape</sonar.jdbc.password>
         <sonar.host.url>http://sonar.bankbazaar.com:9000</sonar.host.url>
+        <sonar.sources>pom.xml,src/main</sonar.sources>    
     </properties>
 <profiles>
     <profile>

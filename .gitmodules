@@ -46,3 +46,6 @@
 [submodule "services/digitalsignatureservice"]
 	path = services/digitalsignatureservice
 	url = git@github.bankbazaar.com:bankbazaar/digitalsignatureservice.git
+[submodule "services/cds"]
+	path = services/cds
+	url = git@github.com:bankbazaar/cds.git

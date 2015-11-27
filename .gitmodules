@@ -52,3 +52,6 @@
 [submodule "services/dialerservice"]
 	path = services/dialerservice
 	url = git@github.com:bankbazaar/dialerservice.git
+[submodule "bankdataupload"]
+	path = bankdataupload
+	url = http://github.com/bankbazaar/bankdataupload.git

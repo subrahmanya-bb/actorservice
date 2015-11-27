@@ -27,5 +27,6 @@
 	<module>digitalsignatureservice</module>
         <module>cds</module>
         <module>icici-bb-doc-flow-service</module>
+        <module>dialerservice</module>
     </modules>
 </project>

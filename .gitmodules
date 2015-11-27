@@ -49,3 +49,6 @@
 [submodule "services/cds"]
 	path = services/cds
 	url = git@github.bankbazaar.com:bankbazaar/cds.git
+[submodule "services/dialerservice"]
+	path = services/dialerservice
+	url = git@github.com:bankbazaar/dialerservice.git

@@ -389,7 +389,7 @@
         <module>websites</module>
         <module>services</module>
         <module>md</module>
-        <module>bankdataupload</module>
+        <!--<module>bankdataupload</module>-->
     </modules>
 </project>
 

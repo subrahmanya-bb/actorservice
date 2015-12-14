@@ -16,3 +16,5 @@ websites/*/plugins/
 websites/*/overlays/
 services/denormer/src/main/resources/jdbc.properties
 git-daemon-export-ok
+*/.sonar*
+.sonar*

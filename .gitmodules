@@ -51,7 +51,7 @@
 	url = git@github.bankbazaar.com:bankbazaar/cds.git
 [submodule "services/dialerservice"]
 	path = services/dialerservice
-	url = git@github.com:bankbazaar/dialerservice.git
+	url = git@github.bankbazaar.com:bankbazaar/dialerservice.git
 [submodule "bankdataupload"]
 	path = bankdataupload
-	url = http://github.com/bankbazaar/bankdataupload.git
+	url = git@github.bankbazaar.com:bankbazaar/bankdataupload.git

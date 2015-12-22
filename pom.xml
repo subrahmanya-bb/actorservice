@@ -39,7 +39,7 @@
                 <configuration>
                     <parallel>classes</parallel>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
-                    <argLine>-Xmx1536m -XX:MaxPermSize=512m -XX:PermSize=192m</argLine>
+                    <argLine>-Xmx1536m -XX:MaxPermSize=512m -XX:PermSize=192m @{argLine}</argLine>
                     <forkCount>3</forkCount>
                     <reuseForks>true</reuseForks>
                     <systemProperties>

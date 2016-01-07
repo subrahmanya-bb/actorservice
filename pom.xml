@@ -44,6 +44,7 @@
                     <reuseForks>true</reuseForks>
                     <systemProperties>
                         <testmode>true</testmode>
+                        <stage>test</stage>
                     </systemProperties>
                 </configuration>
             </plugin>

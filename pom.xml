@@ -39,7 +39,7 @@
                 <configuration>
                     <parallel>classes</parallel>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
-                    <argLine>-Xmx1536m -XX:MaxPermSize=512m -XX:PermSize=192m</argLine>
+                    <argLine>@{argLine} -Xmx1536m -XX:MaxPermSize=512m -XX:PermSize=192m</argLine>
                     <forkCount>3</forkCount>
                     <reuseForks>true</reuseForks>
                     <systemProperties>
@@ -195,6 +195,8 @@
     </reporting>
 
     <properties>
+        <!--Code coverage properties-->
+        <argLine></argLine>
         <!-- Application settings -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <copyright.year>2014</copyright.year>

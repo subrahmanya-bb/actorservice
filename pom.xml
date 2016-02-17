@@ -31,6 +31,14 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <includes>
+                        <include>com.bankbazaar.*</include>
+                        <include>csdb.*</include>
+                        <include>warehouse.*</include>
+                        <include>cptf.*</include>
+                    </includes>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

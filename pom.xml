@@ -6,7 +6,7 @@
     <groupId>com.bankbazaar</groupId>
     <artifactId>brint</artifactId>
     <packaging>pom</packaging>
-    <version>16.02.11</version>
+    <version>16.02.18</version>
     <name>Bankbazaar</name>
     <url>http://www.bankbazaar.com</url>
 

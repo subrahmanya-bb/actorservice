@@ -203,6 +203,9 @@
     </reporting>
 
     <properties>
+        <!--Maven plugin version properties-->
+        <maven-war-plugin.version>2.4</maven-war-plugin.version>
+
         <!--Code coverage properties-->
         <argLine></argLine>
         <jacoco.version>0.7.6.201602180812</jacoco.version>

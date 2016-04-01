@@ -298,31 +298,26 @@
                         <version>${jacoco.version}</version>
                         <executions>
                             <execution>
-                                <id>default-instrument</id>
-                                <phase>process-classes</phase>
                                 <goals>
-                                    <goal>instrument</goal>
+                                    <goal>prepare-agent</goal>
                                 </goals>
                             </execution>
                             <execution>
-                                <id>default-restore-instrumented-classes</id>
-                                <!--Do not change the phase. This is needed to ensure the that we package the instrumented jars-->
-                                <!--This helps in getting the right coverage report.-->
-                                <phase>pre-integration-test</phase>
-                                <goals>
-                                    <goal>restore-instrumented-classes</goal>
-                                </goals>
-                            </execution>
-                            <execution>
-                                <id>default-report</id>
-                                <!--Do not change the phase. This is needed to ensure the that we package the instrumented jars-->
-                                <!--This helps in getting the right coverage report.-->
-                                <phase>verify</phase>
+                                <id>report</id>
+                                <phase>prepare-package</phase>
                                 <goals>
                                     <goal>report</goal>
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration>
+                            <includes>
+                                <include>com.bankbazaar.*</include>
+                                <include>csdb.*</include>
+                                <include>warehouse.*</include>
+                                <include>cptf.*</include>
+                            </includes>
+                        </configuration>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -334,14 +329,10 @@
                             <argLine>@{argLine} -Xmx1536m -XX:MaxPermSize=512m -XX:PermSize=192m</argLine>
                             <forkCount>3</forkCount>
                             <reuseForks>true</reuseForks>
-                            <includes>
-                                <include>com/bankbazaar/**/*, csdb/**/*, warehouse/**/*, cptf/**/*</include>
-                            </includes>
-                            <systemPropertyVariables>
+                            <systemProperties>
                                 <testmode>true</testmode>
                                 <stage>test</stage>
-                                <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-                            </systemPropertyVariables>
+                            </systemProperties>
                         </configuration>
                     </plugin>
                 </plugins>

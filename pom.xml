@@ -205,7 +205,7 @@
         <groovy.version>1.8.8</groovy.version>
         <cglib.version>2.2</cglib.version>
         <org.apache.velocity.version>1.7</org.apache.velocity.version>
-        <sonar.jdbc.url>jdbc:mysql://sonar.bankbazaar.com:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
+        <sonar.jdbc.url>jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
         <sonar.jdbc.username>cloud</sonar.jdbc.username>
         <sonar.jdbc.password>scape</sonar.jdbc.password>
         <sonar.host.url>http://sonar.bankbazaar.com:9000</sonar.host.url>

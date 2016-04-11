@@ -19,11 +19,14 @@
 	<module>bb-api</module>
         <module>cibil</module>
         <module>notificationservice</module>
+        <!--This is the old export service-->
         <module>exportservice</module>
+        <!--This is added intentionally for the new export service. DO NOT REMOVE-->
+        <module>export-service</module>
         <module>dataservice</module>
         <module>gratter-container</module>
         <module>aps-service</module>
-	<module>digitalsignatureservice</module>
+	    <module>digitalsignatureservice</module>
         <module>cds</module>
         <module>icici-bb-doc-flow-service</module>
         <module>dialerservice</module>

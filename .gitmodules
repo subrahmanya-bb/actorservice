@@ -16,6 +16,9 @@
 [submodule "services/exportservice"]
 	path = services/exportservice
 	url = git@github.bankbazaar.com:bankbazaar/exportservice.git
+[submodule "services/export-service"]
+	path = services/export-service
+	url = git@github.bankbazaar.com:bankbazaar/export-service.git
 [submodule "services/dataservice"]
 	path = services/dataservice
 	url = git@github.bankbazaar.com:bankbazaar/dataservice.git

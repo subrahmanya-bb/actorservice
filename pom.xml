@@ -67,16 +67,6 @@
             <url>http://build.bankbazaar.com/archiva/repository/internal/</url>
         </repository>
         <repository>
-            <id>theta-snapshots</id>
-            <name>Snapshots Repository</name>
-            <url>http://theta-build.bankbazaar.com/archiva/repository/snapshots/</url>
-        </repository>
-        <repository>
-            <id>theta-internal</id>
-            <name>Internal Repository</name>
-            <url>http://theta-build.bankbazaar.com/archiva/repository/internal/</url>
-        </repository>
-        <repository>
             <id>mvn-public</id>
             <name>MVNRepository</name>
             <url>http://mvnrepository.com</url>

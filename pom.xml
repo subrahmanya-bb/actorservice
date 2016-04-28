@@ -82,10 +82,6 @@
             </snapshots>
         </repository>
         <repository>
-            <id>java.net.m2</id>
-            <url>http://download.java.net/maven/2/</url>
-        </repository>
-        <repository>
             <id>jgit-repository</id>
             <url>http://download.eclipse.org/jgit/maven</url>
         </repository>

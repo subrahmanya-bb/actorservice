@@ -58,3 +58,6 @@
 [submodule "bankdataupload"]
 	path = bankdataupload
 	url = git@github.bankbazaar.com:bankbazaar/bankdataupload.git
+[submodule "services/roboarm-container"]
+	path = services/roboarm-container
+	url = git@github.com:bankbazaar/roboarm-service.git

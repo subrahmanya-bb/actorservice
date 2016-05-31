@@ -315,7 +315,7 @@
                         <version>2.19.1</version>
                         <configuration>
                             <useUnlimitedThreads>true</useUnlimitedThreads>
-                            <argLine>@{argLine} -Xmx1536m -XX:MaxPermSize=512m -XX:PermSize=192m</argLine>
+                            <argLine>@{argLine} -Xmx3096m -XX:MaxPermSize=512m -XX:PermSize=192m</argLine>
                             <systemProperties>
                                 <testmode>true</testmode>
                                 <stage>test</stage>

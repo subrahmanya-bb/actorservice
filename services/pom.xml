@@ -26,9 +26,10 @@
         <module>dataservice</module>
         <module>gratter-container</module>
         <module>aps-service</module>
-	    <module>digitalsignatureservice</module>
+	<module>digitalsignatureservice</module>
         <module>cds</module>
         <module>icici-bb-doc-flow-service</module>
         <module>dialerservice</module>
+        <module>roboarm-container</module>
     </modules>
 </project>

@@ -61,3 +61,6 @@
 [submodule "services/roboarm-container"]
 	path = services/roboarm-container
 	url = git@github.bankbazaar.com:bankbazaar/roboarm-service.git
+[submodule "services/user-reviews"]
+	path = services/user-reviews
+	url = git@github.bankbazaar.com:bankbazaar/user-reviews.git

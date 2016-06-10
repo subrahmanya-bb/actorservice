@@ -31,5 +31,6 @@
         <module>icici-bb-doc-flow-service</module>
         <module>dialerservice</module>
         <module>roboarm-container</module>
+        <module>user-reviews</module>
     </modules>
 </project>

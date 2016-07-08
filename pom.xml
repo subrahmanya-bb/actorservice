@@ -266,6 +266,7 @@
         </dependency>
     </dependencies>
     <modules>
+	<module>services/user-reviews</module>
         <module>domain-container</module>
         <module>core-container</module>
         <module>warehouse</module>

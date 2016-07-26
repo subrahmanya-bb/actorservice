@@ -264,6 +264,13 @@
             <scope>test</scope>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.182</version>
+            <scope>test</scope>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
     <modules>
 	<module>services/user-reviews</module>

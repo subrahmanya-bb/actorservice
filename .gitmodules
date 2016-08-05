@@ -64,3 +64,6 @@
 [submodule "services/user-reviews"]
 	path = services/user-reviews
 	url = git@github.bankbazaar.com:bankbazaar/user-reviews.git
+[submodule "services/mutual-fund"]
+	path = services/mutual-fund
+	url = git@github.com:bankbazaar/mutual-fund.git

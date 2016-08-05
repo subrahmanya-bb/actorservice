@@ -257,6 +257,11 @@
         </dependency>
     </dependencies>
     <modules>
+	<module>testdata</module>
+	<module>util</module>
+	<module>generic</module>
+	<module>base</module>
+	<module>app</module>
 	<module>services/user-reviews</module>
         <module>domain-container</module>
         <module>core-container</module>

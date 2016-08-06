@@ -31,5 +31,6 @@
         <module>icici-bb-doc-flow-service</module>
         <module>dialerservice</module>
         <module>roboarm-container</module>
+        <module>mutual-fund</module>
     </modules>
 </project>

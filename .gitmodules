@@ -82,3 +82,6 @@
 [submodule "services/mutual-fund"]
 	path = services/mutual-fund
 	url = git@github.com:bankbazaar/mutual-fund.git
+[submodule "services/mis-container"]
+	path = services/mis-container
+	url = git@github.bankbazaar.com:bankbazaar/mis-service.git

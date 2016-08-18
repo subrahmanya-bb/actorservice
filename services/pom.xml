@@ -32,5 +32,6 @@
         <module>dialerservice</module>
         <module>roboarm-container</module>
         <module>mutual-fund</module>
+        <module>mis-container</module>
     </modules>
 </project>

@@ -33,5 +33,6 @@
         <module>roboarm-container</module>
         <module>mutual-fund</module>
         <module>mis-container</module>
+        <module>personal-finance-service</module>
     </modules>
 </project>

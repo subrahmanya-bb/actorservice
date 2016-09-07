@@ -85,3 +85,6 @@
 [submodule "services/mis-container"]
 	path = services/mis-container
 	url = git@github.bankbazaar.com:bankbazaar/mis-service.git
+[submodule "services/personal-finance-service"]
+	path = services/personal-finance-service
+	url = git@github.bankbazaar.com:bankbazaar/personal-finance-service.git

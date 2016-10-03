@@ -88,3 +88,6 @@
 [submodule "services/personal-finance-service"]
 	path = services/personal-finance-service
 	url = git@github.bankbazaar.com:bankbazaar/personal-finance-service.git
+[submodule "services/centre-listing"]
+	path = services/centre-listing
+	url = git@github.bankbazaar.com:bankbazaar/centre-listing.git

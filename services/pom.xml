@@ -34,5 +34,6 @@
         <module>mutual-fund</module>
         <module>mis-container</module>
         <module>personal-finance-service</module>
+        <module>centre-listing</module>
     </modules>
 </project>

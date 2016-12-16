@@ -91,3 +91,6 @@
 [submodule "services/centre-listing"]
 	path = services/centre-listing
 	url = git@github.bankbazaar.com:bankbazaar/centre-listing.git
+[submodule "campaign-tool"]
+	path = campaign-tool
+	url = git@github.bankbazaar.com:bankbazaar/campaign-tool.git

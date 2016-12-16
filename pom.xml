@@ -265,6 +265,7 @@
 	<module>services/user-reviews</module>
         <module>domain-container</module>
         <module>core-container</module>
+        <module>campaign-tool</module>
         <module>warehouse</module>
         <module>csdb-container</module>
         <module>cp-container</module>

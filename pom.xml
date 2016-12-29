@@ -273,6 +273,7 @@
         <module>services</module>
         <module>md</module>
         <module>bankdataupload</module>
+        <module>service-test</module>
     </modules>
 
     <profiles>

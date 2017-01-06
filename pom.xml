@@ -319,6 +319,8 @@
                                 <testmode>true</testmode>
                                 <stage>test</stage>
                             </systemProperties>
+                            <useSystemClassLoader>false</useSystemClassLoader>
+                            <useManifestOnlyJar>false</useManifestOnlyJar>
                         </configuration>
                     </plugin>
                 </plugins>

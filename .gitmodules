@@ -1,99 +1,99 @@
 [submodule "core-container"]
 	path = core-container
-	url = git@github.bankbazaar.com:bankbazaar/core.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/core.git
 [submodule "websites"]
 	path = websites
-	url = git@github.bankbazaar.com:bankbazaar/websites.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/websites.git
 [submodule "warehouse"]
 	path = warehouse
-	url = git@github.bankbazaar.com:bankbazaar/warehouse.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/warehouse.git
 [submodule "services/cibil"]
 	path = services/cibil
-	url = git@github.bankbazaar.com:bankbazaar/cibilservice.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/cibilservice.git
 [submodule "services/notificationservice"]
 	path = services/notificationservice
-	url = git@github.bankbazaar.com:bankbazaar/notificationservice.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/notificationservice.git
 [submodule "services/exportservice"]
 	path = services/exportservice
-	url = git@github.bankbazaar.com:bankbazaar/exportservice.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/exportservice.git
 [submodule "services/export-service"]
 	path = services/export-service
-	url = git@github.bankbazaar.com:bankbazaar/export-service.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/export-service.git
 [submodule "services/dataservice"]
 	path = services/dataservice
-	url = git@github.bankbazaar.com:bankbazaar/dataservice.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/dataservice.git
 [submodule "services/gratter-container"]
 	path = services/gratter-container
-	url = git@github.bankbazaar.com:bankbazaar/gratter.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/gratter.git
 [submodule "cp-container"]
 	path = cp-container
-	url = git@github.bankbazaar.com:bankbazaar/cp.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/cp.git
 [submodule "md"]
 	path = md
-	url = git@github.bankbazaar.com:bankbazaar/md.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/md.git
 [submodule "csdb-container"]
 	path = csdb-container
-	url = git@github.bankbazaar.com:bankbazaar/csdb.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/csdb.git
 [submodule "services/aps-service"]
 	path = services/aps-service
-	url = git@github.bankbazaar.com:bankbazaar/aps-service.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/aps-service.git
 [submodule "services/icici-bb-doc-flow-service"]
 	path = services/icici-bb-doc-flow-service
-	url = git@github.bankbazaar.com:bankbazaar/icici-bb-doc-flow-service.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/icici-bb-doc-flow-service.git
 [submodule "domain-container"]
 	path = domain-container
-	url = git@github.bankbazaar.com:bankbazaar/domain.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/domain.git
 [submodule "services/bb-api"]
 	path = services/bb-api
-	url = git@github.bankbazaar.com:bankbazaar/bb-api.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/bb-api.git
 [submodule "services/digitalsignatureservice"]
 	path = services/digitalsignatureservice
-	url = git@github.bankbazaar.com:bankbazaar/digitalsignatureservice.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/digitalsignatureservice.git
 [submodule "services/cds"]
 	path = services/cds
-	url = git@github.bankbazaar.com:bankbazaar/cds.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/cds.git
 [submodule "services/dialerservice"]
 	path = services/dialerservice
-	url = git@github.bankbazaar.com:bankbazaar/dialerservice.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/dialerservice.git
 [submodule "bankdataupload"]
 	path = bankdataupload
-	url = git@github.bankbazaar.com:bankbazaar/bankdataupload.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/bankdataupload.git
 [submodule "services/roboarm-container"]
 	path = services/roboarm-container
-	url = git@github.bankbazaar.com:bankbazaar/roboarm-service.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/roboarm-service.git
 [submodule "services/user-reviews"]
 	path = services/user-reviews
-	url = git@github.bankbazaar.com:bankbazaar/user-reviews.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/user-reviews.git
 [submodule "util"]
 	path = util
-	url = git@github.bankbazaar.com:bankbazaar/util.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/util.git
 [submodule "generic"]
 	path = generic
-	url = git@github.bankbazaar.com:bankbazaar/generic.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/generic.git
 [submodule "base"]
 	path = base
-	url = git@github.bankbazaar.com:bankbazaar/base.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/base.git
 [submodule "app"]
 	path = app
-	url = git@github.bankbazaar.com:bankbazaar/app.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/app.git
 [submodule "testdata"]
 	path = testdata
-	url = git@github.bankbazaar.com:bankbazaar/testdata.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/testdata.git
 [submodule "services/mutual-fund"]
 	path = services/mutual-fund
-	url = git@github.com:bankbazaar/mutual-fund.git
+	url = git@github.com:subrahmanya-bb/mutual-fund.git
 [submodule "services/mis-container"]
 	path = services/mis-container
-	url = git@github.bankbazaar.com:bankbazaar/mis-service.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/mis-service.git
 [submodule "services/personal-finance-service"]
 	path = services/personal-finance-service
-	url = git@github.bankbazaar.com:bankbazaar/personal-finance-service.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/personal-finance-service.git
 [submodule "services/centre-listing"]
 	path = services/centre-listing
-	url = git@github.bankbazaar.com:bankbazaar/centre-listing.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/centre-listing.git
 [submodule "campaign-tool"]
 	path = campaign-tool
-	url = git@github.bankbazaar.com:bankbazaar/campaign-tool.git
+	url = git@github.bankbazaar.com:subrahmanya-bb/campaign-tool.git
 [submodule "service-test"]
 	path = service-test
-	url = git@github.com:bankbazaar/service-test.git
+	url = git@github.com:subrahmanya-bb/service-test.git

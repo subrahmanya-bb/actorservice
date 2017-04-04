@@ -35,5 +35,6 @@
         <module>mis-container</module>
         <module>personal-finance-service</module>
         <module>centre-listing</module>
+        <module>actor-container</module>
     </modules>
 </project>

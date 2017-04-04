@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>actor-container</artifactId>
+        <groupId>com.bankbazaar</groupId>
+        <version>sk-31mar17</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>actor-service-api</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.bankbazaar</groupId>
+            <artifactId>workflow-domain</artifactId>
+            <version>17.02.15</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bankbazaar</groupId>
+            <artifactId>workflow-service</artifactId>
+            <version>17.02.15</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

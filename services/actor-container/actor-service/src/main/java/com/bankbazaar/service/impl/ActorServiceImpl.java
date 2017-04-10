@@ -2,9 +2,6 @@ package com.bankbazaar.service.impl;
 
 import com.bankbazaar.model.ActorServiceRequest;
 import com.bankbazaar.model.ActorServiceResponse;
-import com.bankbazaar.model.workflow.RetryWorkflowItem;
-import com.bankbazaar.model.workflow.WorkflowActionType;
-import com.bankbazaar.model.workflow.retry.WorkflowRetryStrategyType;
 import com.bankbazaar.service.ActorService;
 import com.bankbazaar.workflow.ActorResponse;
 import com.bankbazaar.workflow.IActor;
@@ -24,9 +21,9 @@ public class ActorServiceImpl implements ActorService {
 
         Class<?> actorClass = null;
         try {
-            actorClass = Class.forName(actorServiceRequest.getActorName());
 
-            IActor actorObject = (IActor) actorClass.newInstance();
+
+            IActor actorObject = actorServiceRequest.getActor();
             ActorResponse response = actorObject.act(actorServiceRequest.getActionable());
 
             ActorServiceResponse actorServiceResponse = new ActorServiceResponse();
@@ -41,12 +38,7 @@ public class ActorServiceImpl implements ActorService {
             method.invoke(actorClass.newInstance(), request.getActionable());
             */
 
-
-        } catch (ClassNotFoundException e) {
-            LOG.info("Invalid actor", e);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
@@ -57,9 +49,8 @@ public class ActorServiceImpl implements ActorService {
 
         Class<?> actorClass = null;
         try {
-            actorClass = Class.forName(actorServiceRequest.getActorName());
 
-            IActor actorObject = (IActor) actorClass.newInstance();
+            IActor actorObject = actorServiceRequest.getActor();
             ActorResponse response = actorObject.checkCompletion(actorServiceRequest.getActionable());
 
             ActorServiceResponse actorServiceResponse = new ActorServiceResponse();
@@ -75,79 +66,15 @@ public class ActorServiceImpl implements ActorService {
             */
 
 
-        } catch (ClassNotFoundException e) {
-            LOG.info("Invalid actor", e);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
 
     @Override
-    public WorkflowRetryStrategyType getRetryStrategy(ActorServiceRequest actorServiceRequest) {
-
-        Class<?> actorClass = null;
-        try {
-            actorClass = Class.forName(actorServiceRequest.getActorName());
-
-            IActor actorObject = (IActor) actorClass.newInstance();
-            return actorObject.getRetryStrategy();
-
-        } catch (ClassNotFoundException e) {
-            LOG.info("Invalid actor", e);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
-
-        return null;
+    public String ping() {
+        return Boolean.TRUE.toString();
     }
 
-    @Override
-    public Integer getMaxRetryCount(ActorServiceRequest actorServiceRequest) {
-
-        Class<?> actorClass = null;
-        try {
-            actorClass = Class.forName(actorServiceRequest.getActorName());
-
-            IActor actorObject = (IActor) actorClass.newInstance();
-            return actorObject.getMaxRetryCount();
-
-        } catch (ClassNotFoundException e) {
-            LOG.info("Invalid actor", e);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    @Override
-    public WorkflowActionType getActorType(ActorServiceRequest actorServiceRequest) {
-
-        Class<?> actorClass = null;
-        try {
-            actorClass = Class.forName(actorServiceRequest.getActorName());
-
-            IActor actorObject = (IActor) actorClass.newInstance();
-            return actorObject.getActorType();
-
-        } catch (ClassNotFoundException e) {
-            LOG.info("Invalid actor", e);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    @Override
-    public void onMaxRetriesExceeded(RetryWorkflowItem retryWorkflowItem, ActorServiceRequest request) {
-
-    }
 }

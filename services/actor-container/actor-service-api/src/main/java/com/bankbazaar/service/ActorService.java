@@ -2,9 +2,6 @@ package com.bankbazaar.service;
 
 import com.bankbazaar.model.ActorServiceRequest;
 import com.bankbazaar.model.ActorServiceResponse;
-import com.bankbazaar.model.workflow.RetryWorkflowItem;
-import com.bankbazaar.model.workflow.WorkflowActionType;
-import com.bankbazaar.model.workflow.retry.WorkflowRetryStrategyType;
 
 import javax.ws.rs.*;
 
@@ -25,20 +22,8 @@ public interface ActorService {
     @POST
     ActorServiceResponse checkCompletion(ActorServiceRequest request);
 
-    @Path("/getRetryStrategy")
+    @Path("/ping")
     @GET
-    WorkflowRetryStrategyType getRetryStrategy(ActorServiceRequest request);
-
-    @Path("/getMaxRetryCount")
-    @GET
-    Integer getMaxRetryCount(ActorServiceRequest request);
-
-    @Path("/getActorType")
-    @GET
-    WorkflowActionType getActorType(ActorServiceRequest request);
-
-    @Path("/onMaxRetries")
-    @POST
-    void onMaxRetriesExceeded(RetryWorkflowItem retryWorkflowItem, ActorServiceRequest request);
+    String ping();
 
 }

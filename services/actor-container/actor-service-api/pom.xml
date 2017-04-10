@@ -14,12 +14,12 @@
         <dependency>
             <groupId>com.bankbazaar</groupId>
             <artifactId>workflow-domain</artifactId>
-            <version>17.02.15</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>com.bankbazaar</groupId>
             <artifactId>workflow-service</artifactId>
-            <version>17.02.15</version>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 
